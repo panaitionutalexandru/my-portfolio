@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  line-height: 1.2;
+  color: #565360;
+  background-color: #f5f5f5;
+  text-rendering: optimizeSpeed;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+select:focus {
+  box-shadow: unset;
+  outline: unset;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}

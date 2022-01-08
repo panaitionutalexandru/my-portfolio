@@ -1,0 +1,9 @@
+export { Wrapper } from "./Wrapper/Wrapper";
+export { Paragraph } from "./Paragraph/Paragraph";
+export { Icon } from "./Icon/Icon";
+export { Button } from "./Button/Button";
+export { Heading } from "./Heading/Heading";
+export { Image } from "./Image/Image";
+export { SubHeading } from "./SubHeading/SubHeading";
+export { InfoSection } from "./InfoSection/InfoSection";
+export { Demo } from "./Demo/Demo";
